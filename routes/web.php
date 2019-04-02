@@ -16,3 +16,7 @@
 // });
 
 Route::get('/','adminController@index');
+
+Route::get('index','adminController@simple_form');
+
+Route::post('saveData','adminController@saveData');
